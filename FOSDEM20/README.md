@@ -10,6 +10,15 @@
 
 ## Discover Static Code Analysis in Python with **Coala Framework**
 
+<br>
+
+###### AUDIANCE
+Python Developers
+###### LEVEL
+Beginner / Intermediate / Advanced
+
+<br>
+
 ### Abstract
 
 We, as developer, aim to provide code that, almost matches our team code style, looks better and behaves right. Static code analysis (SCA) tools are one of the way to achieves that. But, with multi-programming languages projects and all kinds of code related needs, It's difficult to address all thoses usecases without dealing with a vast majority of SCA tools.
@@ -20,4 +29,13 @@ It is written in Python and supports way over 50 languages in addition to langua
 
 This talk features a short introduction to the Coala Framework and a guide to help you and your team, build routines to do almost anything you want with your code.
 
+<br>
+
+### Note to Organizers
+
+Attendees will learn : 
+
+* Some Basics concepts of static code analysis
+* The purpose and usage of Coala Framework
+* How to create custom routines either lint, or fix their code
 
