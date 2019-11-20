@@ -17,6 +17,21 @@ Python Developers
 ###### LEVEL
 Beginner / Intermediate / Advanced
 
+
+<br>
+
+### Notes
+
+This talk is for python developer with any level of experience.
+
+At the en of the talk, the attendees will learn : 
+
+* Some Basics concepts of static code analysis
+* The purpose and usage of Coala Framework
+* How to create custom routines either lint, or fix their code
+
+<br>
+
 <br>
 
 ### Abstract
@@ -27,15 +42,14 @@ We, as developer, aim to provide code that, almost matches our team code style, 
 
 It is written in Python and supports way over 50 languages in addition to language independent routines. So, instead of building new analysis tools from scratch you can now build your own custom logic and let let coala deal with the rest.
 
-This talk features a short introduction to the Coala Framework and a guide to help you and your team, build routines to do almost anything you want with your code.
+This talk introduces the audiance to the Coala Framework and guides them through how the can use it to build routines to do almost anything you want with your code.
 
-<br>
 
-### Note to Organizers
 
-Attendees will learn : 
+### Agenda
 
-* Some Basics concepts of static code analysis
-* The purpose and usage of Coala Framework
-* How to create custom routines either lint, or fix their code
-
+* Static Code Analysis : Quick overview
+* Introduction to Coala and Coala-bears
+* Coala-bears : How to build your own coala routines
+* Going Further : What's next ?
+* Q & A
