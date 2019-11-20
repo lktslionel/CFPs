@@ -10,6 +10,7 @@
 
 ## Discover Static Code Analysis in Python with **Coala Framework**
 
+
 <br>
 
 ###### AUDIANCE
