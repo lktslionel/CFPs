@@ -32,8 +32,6 @@ At the en of the talk, the attendees will learn :
 
 <br>
 
-<br>
-
 ### Abstract
 
 We, as developer, aim to provide code that, almost matches our team code style, looks better and behaves right. Static code analysis (SCA) tools are one of the way to achieves that. But, with multi-programming languages projects and all kinds of code related needs, It's difficult to address all thoses usecases without dealing with a vast majority of SCA tools.
@@ -44,7 +42,7 @@ It is written in Python and supports way over 50 languages in addition to langua
 
 This talk introduces the audiance to the Coala Framework and guides them through how the can use it to build routines to do almost anything you want with your code.
 
-
+<br>
 
 ### Agenda
 
