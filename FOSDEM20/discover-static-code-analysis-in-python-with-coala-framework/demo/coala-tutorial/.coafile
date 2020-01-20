@@ -1,0 +1,15 @@
+[cli]
+use_spaces = True
+log_level = DEBUG
+flush_cache, show_details = True
+
+[all]
+bears = SpaceConsistencyBear
+files = src/*.c
+;ignore = **/*in.c
+use_spaces = True
+
+
+[all.TODOS]
+bears = KeywordBear
+language = c
