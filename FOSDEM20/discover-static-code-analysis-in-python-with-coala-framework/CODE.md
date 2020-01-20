@@ -164,3 +164,32 @@ Ref : https://docs.coala.io/en/latest/Users/Glob_Patterns.html
 |13 | There is a conflict in the version of a dependency you have |installed and the requirements of coala.
 |130 | A KeyboardInterrupt (Ctrl+C) was pressed during the execution |of coala.
 |255 | Any other general errors.|
+
+<br>
+
+### Git hook
+
+It's a great idea too use `coala` on a giit pre-commit hook.
+
+Use this boilerplate script 
+
+```sh
+#!/bin/sh
+set -e
+coala
+```
+
+<br>
+
+### CI / CD
+
+
+To run coaloa as CI script 
+
+```sh
+coala --ci 
+
+# or 
+
+coala --non-interactive 
+```
