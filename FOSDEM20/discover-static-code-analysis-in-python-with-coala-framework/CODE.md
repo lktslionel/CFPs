@@ -4,7 +4,11 @@
 >
 
 
+
 <br>  
+<br>
+
+### Basics 
 
 1. List all available bears : 
 
@@ -56,3 +60,76 @@
     ```
 
     * use Config `default_actions=...` 
+
+
+<br>
+
+### Configuration 
+
+
+#### 3 main scopes 
+
+```
++--------------------------------------------------+
+|                                                  |
+| SYSTEM         +------------------------------+  |
+| system_coafile |                              |  |
+|                | User     +----------------+  |  |
+|                | .coarc   | PRJ            |  |  |
+|                |          | .coafile       |  |  |
+|                |          +----------------+  |  |
+|                |                              |  |
+|                +------------------------------+  |
+|                                                  |
++--------------------------------------------------+
+```
+
+`->`: Means overrides 
+
+`.coafile -> .coarc -> system_coafile`
+
+### Inheritance in config files 
+
+Use `+=` A build an accumulated list.
+
+```
+[all]
+enabled = True
+overridable = 2
+ignore = vendor1/
+
+[all.section1]
+overridable = 3
+ignore += vendor2/
+other = some_value
+
+[all.section2]
+overridable = 4
+ignore += vendor3/
+other = some_other_value
+```
+
+
+
+<br>
+
+### Quickstart setup 
+
+Simply run `coala-quickstart` in your root directory, to create a new `.coafile` pre-filled with a basic set of configuration entries.
+
+It will also sugget you, some starting bears based on some assumptions.
+
+
+<br>
+
+### Bears
+
+
+* Native Bears : Already implemented Bears
+* Linter Bears : Wrap your tool 
+* External Bears : Not a python programmer; write bears in other languages
+
+Brings your software quality UP !!!!
+
+
+
