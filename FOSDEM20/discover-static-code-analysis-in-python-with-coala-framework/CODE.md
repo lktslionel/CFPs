@@ -88,6 +88,8 @@
 
 `.coafile -> .coarc -> system_coafile`
 
+<br>
+
 ### Inheritance in config files 
 
 Use `+=` A build an accumulated list.
@@ -118,6 +120,24 @@ other = some_other_value
 Simply run `coala-quickstart` in your root directory, to create a new `.coafile` pre-filled with a basic set of configuration entries.
 
 It will also sugget you, some starting bears based on some assumptions.
+
+
+<br>
+
+### Actions
+
+Ypou can specify the actin you want coala to take on a Bear execution.
+
+```ini
+[python.autopep8]
+bears = ...
+default_actions = PEP8Bear: ApplyPatchAction 
+
+# or 
+default_actions = *: ApplyPatchAction 
+
+```
+
 
 
 <br>
@@ -193,3 +213,99 @@ coala --ci
 
 coala --non-interactive 
 ```
+
+<br>
+
+### Writing Coala Rules
+
+#### Types
+
+* String (str)
+* Float (float)
+* Int (int)
+* Boolean : true, yes, yeah, no, nope, false
+* List of strings (list, values will be split by comma)
+* Dict of strings (dict, values will be split by comma and colon)
+
+
+#### Results
+
+
+You can retrieve dependency results like this : 
+
+```python
+from coalib.bears.LocalBear import LocalBear
+from bears.somePathTo.OtherBear import OtherBear
+
+class DependentBear(LocalBear):
+    BEAR_DEPS = {OtherBear}
+
+    def run(self, filename, file, dependency_results):
+        results = dependency_results[OtherBear.name]
+```
+
+`dependency_results` looks like : 
+
+```python
+dependency_results = { '<BEAR_NAME>': [...<RESULTS>] }
+```
+
+You can use hidden result to share data between Bears.
+
+```python
+from coalib.results.HiddenResult import HiddenResult
+
+class OtherBear(LocalBear):
+
+    def run(self, filename, file):
+        yield HiddenResult(self, ["Some Content", "Some Other Content"])
+```
+
+
+
+Default values of `CAN_DECT` and `can fixt`  
+
+
+
+
+
+#### Dependencies 
+
+You can use `BEAR_DEPS` to list all dependency of your bears.
+When they resolved, you get the result through a call to `dependency_results()`.
+
+
+```python
+class BarBear(DependencyBear):
+    BEAR_DEPS = {FooBear}
+```
+
+You can modify dependencies at runtime by altering `Bear.BEAR_DEPS` variable.
+
+
+<br>
+
+### Next UP 
+
+* Better Analysis with ASTs : Provides Universal AST for all language using ANTLR (https://github.com/antlr/grammars-v4)
+  that provides a bunch of language's gammar and the ability to parse it with ANTLR.
+  project : coAST (https://github.com/coala/coAST)
+
+* Aspects 
+* A package manager : https://gitlab.com/coala/package_manager
+* Automated Code Review (gitmate)
+* coala-utils
+
+
+* Other metadata
+
+```python
+class SomeBear(Bear):
+    AUTHORS = {'Jon Snow'}
+    AUTHORS_EMAILS = {'jon_snow@gmail.com'}
+    MAINTAINERS = {'Catelyn Stark'}
+    MAINTAINERS_EMAILS = {'catelyn_stark@gmail.com'}
+    LICENSE = 'AGPL-3.0'
+    ASCIINEMA_URL = 'https://asciinema.org/a/80761'
+    SEE_MORE = 'https://www.pylint.org'
+```    
