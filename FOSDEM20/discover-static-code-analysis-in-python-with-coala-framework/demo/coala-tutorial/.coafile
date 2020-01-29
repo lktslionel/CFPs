@@ -2,8 +2,8 @@
 use_spaces = True
 log_level = DEBUG
 flush_cache, show_details = True
+bears = TodoBear, CommonBear
 
-bears = TodoBear
 [all]
 bears = SpaceConsistencyBear
 files = src/*.c

@@ -1,16 +1,26 @@
-from coalib.bears.LocalBear import Bear
-from coalib.results.HiddenResult import HiddenResult
+import os.path
 
-class CommonBear(Bear):
+from coalib.bears.GlobalBear import GlobalBear
+from coalib.results.Result import Result
+from bears.general.CPDBear import CPDBear
 
-    missing_dependencies = []
+
+class CommonBear(GlobalBear):
+    # LANGUAGES = {'Python', 'Python 3'}
+    # AUTHORS = {'The coala developers'}
+    # AUTHORS_EMAILS = {'coala-devel@googlegroups.com'}
+    # LICENSE = 'AGPL-3.0'
+
+    BEAR_DEPS = {CPDBear}
 
     def run(self,
-            filename,
-            file):
-        """
-        Common Bear
-        """
+            name: str, 
+            dependency_results=None,
+            **kwargs):
+        
+        print("args", name)
+        print("dependency_results", dependency_results)
+        print("kwargs", kwargs)
 
-        yield HiddenResult(self, { 'name': 'CommonBear', 'loaded': True} )
-    
+        yield Result(self, 'Your package does'
+                         ' not contain a setup file.')
