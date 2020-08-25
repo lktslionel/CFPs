@@ -23,27 +23,13 @@ Beginner / Intermediate / Advanced
 
 <br>
 
-### Notes
+### Summary
 
-This talk is for software engineers with any level of experience.
-
-At the en of the talk, the attendees will learn : 
+This talk is for software engineers with any level of experience. At the end of the talk, the attendees will learn how to build a world-class CLI tool using Bash, including:
 
 * The basics of bash programming
-* How to better design, build, test, document, release and distribute your CLI tool
+* How to better design, build, test, document, release and distribute their CLI tools
 
-
-<br>
-
-### Abstract
-
-We, as developer, aim to provide code that, almost matches our team code style, looks better and behaves right. Static code analysis (SCA) tools are one of the way to achieves that. But, with multi-programming languages projects and all kinds of code related needs, It's difficult to address all thoses usecases without dealing with a vast majority of SCA tools.
-
-**Coala** is a — language agnostic — static code analysis framework that provides a common command-line interface for linting and fixing all your code.
-
-It is written in Python and supports way over 50 languages in addition to language independent routines. So, instead of building new analysis tools from scratch you can now build your own custom logic and let let coala deal with the rest.
-
-This talk introduces the audiance to the Coala Framework and guides them through how the can use it to build routines to do almost anything you want with your code.
 
 <br>
 
