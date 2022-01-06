@@ -11,7 +11,7 @@
 ## Building Universal CI/CD Pipelines
 #### An idea around building an ubiquitous CI/CD Pipeline
 
-Everyday as a DevOps Engineer, we are tasked to create/maintain CI/CD pipelines which help streamline software delivery and continuously improve software quality. And what I realized is, from company to company, we are — actually — doing the same things over and over but naming things differently. This, by always reinventing the wheel. 
+Everyday as a DevOps Engineer, we are tasked to create/maintain CI/CD pipelines which help streamline software delivery and continuously improve software quality. And what I realized is, from company to company, we are — actually — doing the same things over and over but naming things differently; this, by always reinventing the wheel. 
 
 What if I told you that I finally come up with a ubiquitous way of building CI/CD pipelines. Pipelines that do what there are suppose to, with, on one hand the right semantics, and on the other hand, with less grip at any CI/CD platform.
 
