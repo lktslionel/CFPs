@@ -23,6 +23,10 @@ Together we will explorer that idea and try to build together the vision of a un
 At the end of the talk, the attendees will — not only — learn a new way of building CI/CD pipelines, but they will participate/contribute in a disruptive practices in the software delivery industry.
 
 
+## Requirements
+
+None
+
 ## Keywords
 
 `delivery pipeline`, `devops`, `CI/CD pipeline`, `best practices`
