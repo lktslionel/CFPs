@@ -11,4 +11,8 @@ So, He does not hesitate to speak/talk at conferences/meetups, in order to share
 
 ## Contact
 
-....
+| Github  | Twitter  | LinkedIn  | 
+|---|---|---|
+| https://github.com/lktslionel/  | https://twitter.com/lktslionel  | https://www.linkedin.com/in/lktslionel/  | 
+|  @lktslionel | @lktslionel  |   | 
+|   |   |   |  
