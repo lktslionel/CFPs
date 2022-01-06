@@ -8,7 +8,7 @@
 
 <br>
 
-## Universal CI/CD Pipeline
+## Building Universal CI/CD Pipelines
 #### An idea around building an ubiquitous CI/CD Pipeline
 
 Everyday as a DevOps Engineer, we are tasked to create/maintain CI/CD pipelines which help streamline software delivery and continuously improve software quality. And what I realized is, from company to company, we are — actually — doing the same thins over and over but naming thing differently. This, by always reinventing the wheel. 
