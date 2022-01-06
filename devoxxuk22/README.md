@@ -17,6 +17,8 @@ What if I told you that I finally come up with a ubiquitous way of building CI/C
 
 Together we will explorer that idea and try to build together the vision of a universal, semantically correct, and platform agnostic CI/CD pipeline.
 
+## Elevator Pitch 
+Everyday as a DevOps Engineer, we are tasked to create/maintain CI/CD pipelines which help streamline software delivery and continuously improve software quality. And what I realized is, from company to company, we are — actually — doing the same things over and over but naming things differently; this, by always reinventing the wheel. What if I told you that I had a better way of doing this.
 
 ## Summary
 
