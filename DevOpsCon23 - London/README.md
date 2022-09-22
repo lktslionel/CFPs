@@ -1,5 +1,5 @@
 ###### CFP • SUBMISSION
-# DevOpsCon & Serverless Architecture Con London 2023
+# DevOpsCon London 2023
 
 
 > **Submission platform**: https://callforpapers.sandsmedia.com/<br>
