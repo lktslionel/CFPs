@@ -33,3 +33,8 @@ None
 ## Keywords
 
 `scafolding`, `delivery pipeline`, `devops`, `CI/CD pipeline`, `best practices`
+
+## References
+
+1. https://github.com/tsklabs/ups/blob/master/specification.md
+2. https://gist.github.com/lktslionel/2e59385f33da873f773a30d022a4ce1e
