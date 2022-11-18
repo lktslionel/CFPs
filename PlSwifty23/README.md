@@ -2,11 +2,11 @@
 # plSwift 23
 
 
-> **Submission platform**: None
-> **Deadline**: No strict deadline
-> **Date**: 30-31 May, 2023
-> **Website**: plswift.com
-> **Announcement of selected talks**: 
+> **Submission platform**: None <br>
+> **Deadline**: No strict deadline<br>
+> **Date**: 30-31 May, 2023<br>
+> **Website**: plswift.com<br>
+> **Announcement of selected talks**:<br> 
 > **Contacts**:  hello@plswift.com
 
 <br>
