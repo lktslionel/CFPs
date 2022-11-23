@@ -19,7 +19,7 @@ Together we will explorer that idea and try to build together the vision of a un
 
 ## Elevator Pitch 
 
-I’m so exited to share with you the vision behind building universal, semantically correct, and platform agnostic CI/CD pipelines; along with how we can, with the tools we have at our disposal today — make this vision a reality. Though, to ensure that your company is aware and have a better understanding of your value delivery chain. Not to forget how you can improve it with less grip at any continuous delivery platforms.
+I’m so exited to share with you the vision behind building universal, semantically correct, and platform agnostic CI/CD pipelines; along with how we can, with the tools we have at our disposal today — make this vision a reality. Though, to ensure that your company is aware and have a better understanding of your value delivery chain. And, I will discuss with you some waysto  improve it with less grip at any continuous delivery platforms.
 I'm really looking forward to this talk and hope you all enjoy the conference.
 
 
