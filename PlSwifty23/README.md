@@ -31,3 +31,7 @@ None
 ## Keywords
 
 `Testing`, `iOS`, `DevOps`, `CI/CD`, `pipeline`, `UX`, `GitHub`
+
+## Resources
+
+1. https://pypi.org/project/qrcode/
