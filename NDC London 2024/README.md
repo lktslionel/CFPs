@@ -1,9 +1,9 @@
 ###### CFP • SUBMISSION
-# CloudNord 2023
+# NDC London 2023
 
 
-> **Submission platform**: https://conference-hall.io/speaker/event/SkVFHQ5kzrrfUlSU4MK1<br>
-> **Deadline**: 15/06/2023<br>
+> **Submission platform**: https://sessionize.com/ndc-london-2024/<br>
+> **Deadline**: 01/09/2023<br>
 > **Announcement of selected talks**: ???
 > **Link**: https://www.cloudnord.fr/
 
