@@ -9,6 +9,11 @@ He is a pragmatic polyglot developer who is passionate about technologies, learn
 He enjoys sharing his knowledge with others by speaking at conferences/meetups.
 
 
+---
+
+I'm a Founder/CEO, Speaker and DevOps & Cloud Architect with more than a decade of experience working in the IT industry. 
+I'm a pragmatic polyglot software engineer who's passionate about technologies, innovations, and helping others grow either their carrier or their business.
+
 ## Contact
 
 | Github  | Twitter  | LinkedIn  | 
