@@ -1,10 +1,10 @@
 ###### CFP • SUBMISSION
-# FOSDEM 2020
+# FOSDEM 2021
 
 
-> **Submission platform**: https://penta.fosdem.org/submission/FOSDEM20<br>
-> **Deadline**: 24/11/2019<br>
-> **Announcement of selected talks**: 08/12/2019
+> **Submission platform**: https://penta.fosdem.org/submission/FOSDEM21<br>
+> **Deadline**: -<br>
+> **Announcement of selected talks**: -
 
 <br>
 
