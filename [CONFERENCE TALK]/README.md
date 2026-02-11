@@ -1,9 +1,11 @@
 ---
-EventName: 
-EventRoom: ?
-SubmissionDeadline: ?
-CFPlink: ?
-CFPSubmission: ?
+Event Name: 
+Event Room:
+Event Link:
+CFP link:
+CFP Submission Deadline:
+CFP Submission Link:
+CFP Submission Status: APPROVED | REJECTED | EXPIRED
 ---
 
 ![](https://img.shields.io/badge/FORMAT-TALK-%230e7490?style=flat-square)
