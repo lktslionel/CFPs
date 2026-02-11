@@ -1,9 +1,11 @@
 ---
 Event Name: AWS Summit Paris 2026
 Event Room: ?
-Submission Deadline: ?
+Event Link: ?
 CFP link: ?
-CFP Submission: ?
+CFP Submission Deadline: ?
+CFP Submission Link: ?
+CFP Submission Status: APPROVED | REJECTED | EXPIRED
 ---
 
 
