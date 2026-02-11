@@ -21,9 +21,9 @@ CFP Submission Status: APPROVED | REJECTED | EXPIRED
 
 <br>
     
-## Abstract (150-250 words)
+## Abstract
 
-
+ (150-250 words)
 {{What problem does this talk address? What will attendees learn? }}
 
 ```md
