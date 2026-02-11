@@ -1,21 +1,16 @@
 ---
-Event Name: {{ conference-talk }}
+Event Name: AWS Summit Paris 2026
 Event Room: ?
 Submission Deadline: ?
 CFP link: ?
 CFP Submission: ?
 ---
 
+
 ![](https://img.shields.io/badge/FORMAT-TALK-%230e7490?style=flat-square)
 
-![](https://img.shields.io/badge/FORMAT-LIVE%20CODING-%234d7c0f?style=flat-square)
-
-![](https://img.shields.io/badge/FORMAT-CASE%20STUDY-%23ca8a04?style=flat-square)
-
-![](https://img.shields.io/badge/FORMAT-WORKSHOP-%23831843?style=flat-square)
-
-## {{ Title }}
-{{ Subtitle }}
+## Mastering Python Unit Testing with Boto3 
+Advanced strategies for mocking AWS SDK & API Calls
 
 <br>
     
@@ -85,10 +80,10 @@ A mental model for [decision-making or architecture choice]
 
 ### Level 
 
-* 100 - Beginner
-* 200 - Intermediate
-* 300 - Advanced
-* 400 - Expert
+* 100 Beginner
+* 200 Intermediate
+* 300 Advanced
+* 400 Expert
   
 ![alt text](<Session Proficiency Levels Explained.png>)
 

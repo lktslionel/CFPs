@@ -1,0 +1,106 @@
+###### CFP • SUBMISSION
+
+# AWS SUMMIT PARIS 2026
+
+> **Submission platform**: ?<br>
+> **Deadline**:<br>
+> **Announcement of selected talks**: ?<br>
+> **Link**: ?<br>
+
+<br>
+
+# Title
+
+Testing AWS Code Without Touching AWS: Practical Strategies with Boto3
+
+<br>
+    
+## Abstract (150-250 words)
+
+
+Public-facing description for conference attendees
+
+[What problem does this talk address? What will attendees learn?]
+
+```
+
+Integrating with AWS services through Boto3 is easy — testing that integration properly is not. Many teams end up with slow, brittle tests that hit real AWS accounts, require complex setup, or get skipped entirely.
+
+This talk presents a practical, developer-friendly approach to testing Python projects that rely on AWS. We’ll start by identifying common anti-patterns (hardcoded clients, hidden network calls, untestable functions) and show how small design choices can make cloud code dramatically easier to test.
+
+From there, we’ll walk through different testing strategies:
+
+- Unit testing with botocore.stub.Stubber for precise, fast, low-level control
+- Service mocking with moto for higher-level behavioral tests
+- When (and how) to safely use real AWS in integration tests
+- How to structure your code so AWS is a dependency, not a roadblock
+
+Attendees will leave with concrete patterns, example test structures, and a clear mental model for choosing the right testing approach depending on risk, speed, and confidence needed.
+
+```
+
+
+
+```
+Testing code that interacts with AWS is notoriously tricky: slow tests, flaky pipelines, and surprise cloud bills. In this talk, we’ll explore practical techniques for testing Python applications that use the AWS Boto3 library — without relying on real AWS resources.
+
+You’ll learn how to design AWS-facing code for testability, when to mock vs. simulate services, and how tools like botocore.stub.Stubber, moto, and local emulators can make your test suite fast, reliable, and affordable. Expect concrete examples, testing patterns, and lessons learned from real-world projects.
+```
+
+<br>
+
+## Key Takeaways
+
+Attendees will learn:
+
+- [x] How to structure Boto3 code to make it testable
+- [x] The difference between mocking, stubbing, and emulating AWS
+- [x] How to use Stubber and moto effectively
+- [x] How to avoid slow, flaky, and expensive AWS tests
+- [x] A practical testing strategy they can apply immediately
+
+
+<br>
+    
+## Target Audience
+
+- Python developers using AWS
+- Backend / cloud engineers
+- DevOps engineers writing infrastructure automation
+- Teams struggling with slow or unreliable cloud-related tests
+
+No deep AWS expertise required — examples stay focused and practical.
+
+<br>
+    
+## Requirements
+
+None
+
+<br>
+
+## Outline
+
+    
+<br>
+
+## Format
+
+
+| DURATION    | LEVEL   |   LIVE DEMO     |
+|-------------|--------------|-------------|
+| 30–40m     |   Beginner / Intermediate / Advanced | Yes/No |
+
+
+<br>
+    
+
+## Keywords
+
+`scafolding`, `delivery pipeline`, `devops`, `CI/CD pipeline`, `best practices`
+
+<br>
+    
+## References
+
+1. 
