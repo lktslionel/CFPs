@@ -1,9 +1,9 @@
 ---
-Event Name: {{ conference-talk }}
-Event Room: ?
-Submission Deadline: ?
-CFP link: ?
-CFP Submission: ?
+EventName: 
+EventRoom: ?
+SubmissionDeadline: ?
+CFPlink: ?
+CFPSubmission: ?
 ---
 
 ![](https://img.shields.io/badge/FORMAT-TALK-%230e7490?style=flat-square)
