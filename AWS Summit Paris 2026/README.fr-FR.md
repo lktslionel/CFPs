@@ -13,7 +13,7 @@ CFP Submission Status: APPROVED | REJECTED | EXPIRED
 
 ![](https://img.shields.io/badge/FORMAT-ÉTUDE%20DE%20CAS-%23ca8a04?style=flat-square)
 
-## Maîtriser les tests unitaires Python avec Boto3
+# Maîtriser les tests unitaires Python avec Boto3
 
 ### Stratégies avancées pour simuler les appels SDK & API AWS
 
