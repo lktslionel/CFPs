@@ -23,7 +23,7 @@ CFP Submission Status: APPROVED | REJECTED | EXPIRED
 
 L'intégration avec les services AWS via Boto3 est facile — tester correctement cette intégration est une autre histoire. En réalité, de nombreuses équipes se retrouvent avec des tests lents et fragiles qui ciblent de vrais comptes AWS, nécessitent une configuration complexe ou sont tout simplement ignorés.
 
-Cette présentation propose une approche pratique et conviviale pour les développeurs afin de tester les projets Python qui dépendent d'AWS. Nous commencerons par un rappel rapide sur les bases des tests unitaires Python ; ensuite, nous aborderons le Mocking en général en mettant l'accent sur les différents types de doublures de test, notamment quand utiliser chacune d'entre elles. Enfin, nous partagerons une étude de cas réelle où nous avons implémenté des tests unitaires et des techniques de simulation pour nous assurer que notre code fonctionne comme prévu sans avoir besoin de cibler le véritable environnement AWS. Nous verrons comment de petits choix de conception et le typage peuvent rendre notre code cloud correct et considérablement plus facile à tester.
+Cette présentation propose une approche pratique et conviviale pour les développeurs afin de tester les projets Python dépendant d'AWS. Nous commencerons par un rappel rapide des bases des tests unitaires en Python ; ensuite, nous aborderons le mocking en général, en mettant l'accent sur les différents types de "Test Doubles" et le moment où utiliser chacun d'entre eux. Enfin, nous partagerons une étude de cas réelle dans laquelle nous avons mis en œuvre des tests unitaires et des techniques de simulation pour nous assurer que notre code fonctionne comme prévu, sans avoir à cibler le véritable environnement AWS. Nous verrons comment de petits choix de conception et le typage peuvent rendre notre code cloud correct et considérablement plus facile à tester.
 
 Les participants repartiront avec des modèles concrets, des exemples pratiques et un modèle mental clair pour tester le code basé sur AWS en toute confiance.
 
@@ -34,10 +34,10 @@ Les participants repartiront avec des modèles concrets, des exemples pratiques 
 À partir de là, nous aborderons :
 
 - Les tests unitaires et les différents types de doublures de test en Python avec Pytest.
-- Comment configurer un projet Python basé sur AWS pour les tests unitaires avec Pytest. (application de la règle "pas de réseau" pour les tests unitaires)
-- Comment chaque doublure de test combinée avec le typage est utilisée pour simuler les services AWS. (unittest.mock, monkeypatch, boto3-stubs)
+- Comment configurer un projet Python utilisant le SDK AWS pour les tests unitaires avec Pytest ? (application de la règle "pas de réseau" pour les tests unitaires)
+- Comment chaque doublure de test, combinée au typage statique, est utilisée pour simuler les services AWS. (unittest.mock, monkeypatch, boto3-stubs)
 - "certificate-renewal-operator" : un projet réel basé sur AWS qui implémente des tests unitaires.
-- Les bibliothèques existantes pour faciliter encore plus les tests unitaires.
+- Les bibliothèques existantes pour faciliter encore davantage les tests unitaires.
 
 <br>
 
