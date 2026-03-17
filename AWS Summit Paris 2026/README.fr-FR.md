@@ -8,6 +8,9 @@ CFP Submission Link: X
 CFP Submission Status: APPROVED | REJECTED | EXPIRED
 ---
 
+<br>
+<br>
+
 ![](https://img.shields.io/badge/FORMAT-ÉTUDE%20DE%20CAS-%23ca8a04?style=flat-square)
 
 ## Maîtriser les tests unitaires Python avec Boto3
