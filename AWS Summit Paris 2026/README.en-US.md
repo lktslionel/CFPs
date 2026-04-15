@@ -21,8 +21,6 @@ CFP Submission Status: APPROVED | REJECTED | EXPIRED
 
 ## Abstract (150-250 words)
 
-{{What problem does this talk address? What will attendees learn? }}
-
 Integrating with AWS services through Boto3 is easy — testing that integration properly is another story. As a matter of fact, many teams, end up with slow, brittle tests that hit real AWS accounts, require complex setup, or get skipped entirely.
 
 This talk presents a practical, developer-friendly approach to testing Python projects that rely on AWS. We’ll start by making a quick refresher on the basics of Python unit testing; Then, we will take something discussing Mocking in general with an emphasis on different types of Test doubles especially when to use each. Finally, we will share a real-world case study where we implemented unit tests and mocking techniques to make sure our code works has it was intended to without the need to target the real AWS environment. We will see how small design choices and typings can make our cloud code right and dramatically easier to test.
