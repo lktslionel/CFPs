@@ -43,7 +43,7 @@ Les participants repartiront avec des modèles concrets, des exemples pratiques 
 
 ## Audience
 
-### Cicle
+### Cible
 
 - Développeurs Python utilisant AWS
 - Ingénieurs Backend / DevOps / Cloud
