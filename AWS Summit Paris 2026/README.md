@@ -1,19 +1,6 @@
 # AWS Meetup
 
-## 01 Setup env
 
-```sh
-uv init --package awsmeetup # creating a package app
-uv venv && source .venv/bin/activate
-```
-
-Tools
-
-```sh
-uv add boto3
-
-uv tool install ty ruff
-```
 
 ## 02 Typings
 
@@ -76,17 +63,108 @@ def test_with_id_and_tags_included(
 
 ```
 
-## 01 Testing 101 & Unit testing
+## 01 Testing 101 & Pytest
+
+Testing is the practice our ensuring our software solutions is/stays fit for purpose and fit for use.
+
+### Fallacies of Software Testing
+
+Testing Pyramid is wrong:
+- It is misleading, in fact, we use the terms type of testing to express concepts that are conceptually and semantically different:
+
+1. Display Testing Pyramid
+2. Show that there those testing concepts are fundamentally different
+3. Explain different testing dimensions
+	1. Why are we testing = Test Purpose
+	2. What aspect = Test Objective
+	3. At which level of granularity = Test Scope
+	4. When is it run ? = Test Trigger Method
+		1. Initiated by By Human or System? = Manually-Initiated 
+		2. On a timer ? = Scheduled
+		3. On an Event occurring? = Event-driven
+	5. How is it run or executed ? 
+		1. Require human interaction or not? = Test Execution Method (Manual / Automated)
+		2. Requires code be run or not? = Test Execution Mode
+			Static / Dynamic
+	6. Where in runs = Test Exec Env
+		1. Env Mode: Non-prod / Prod
+		2. Env Type: Localhost, Sandbox, QA, Live, Specialized Env
+
+
+Pytest : Python Testing framework
+- Writing the expected outcome as a result of your intent encode in Python
+	- Organized modules & classes/functions
+	- Test Fixtures
+	- Static/Dynamic configuration though pytest.ini or pyproject.toml and conftest.py
+	- Rich plugin architecture and +1000 available plugins
+	- Full coverage of every testing scopes
+	- Flexibility of organize your tests at your will
+	- Auto-discovery of test modules and functions
+
+Core features:
+- Built-in and Custom Fixtures
+	- monkeypatch: Temporarily modify classes, functions, dictionaries, os.environ, and other objects.
+	- tmp_path: Provide a pathlib.Path object to a temporary directory which is unique to each test function.
+	- tmpdir : Provide a py.path.local object to a temporary directory which is unique to each test function; replaced by tmp_path.
+
+		Custom:
+		- @pytest.fixture(scope="function|class|module|package|session")
+		Autoload:
+		- @pytest.fixture(autouse=True)
+- Hooks: special functions that allow you to **intercept, extend, or modify** pytest’s behavior at various stages of the test lifecycle.
+- Conftest.py: Autoload by directory
+- Assertions
+	- assert
+- Mocking
+	- unittest.mock.Mock(spec=...)
+	- unittest.mock.MagicMock()
+- Markers
+	- @pytest.mark.skip(reason="...")
+	- @pytest.mark.skipif(...)
+	- @pytest.mark.xfail(reason="...")
+	- @pytest.mark.parametrize(...)
+	- @pytest.mark.timeout(seconds)
+	- @pytest.mark.<custom>
+	  pytest -v -m <custom> tests/test_*.py 
+
+
+
+## 02 Unit Testing & Test Double
+
+
+- Explain the core of unit testing
 
 - Sandy Metz principles : https://gist.github.com/Integralist/7944948
   - ref: youtube.com/watch?v=URSWYvyc42M
 -
-
-## 02 Pytest & Test Doubles
+- Test Double: [TDD Course w/ Uncle Bob](https://gist.github.com/lktslionel/0fbd7f05879c5b5e86119b17221f9c63)
 
 ## 03 Demo: Setup project w/ AWS SDK (Boto3) x Pytest
 
+Organizing Python project for testing
+```
++---------------------+     +-------+    +----------+   +----------+   +-----------+   +-----------+   +---------+
+| Execution Method    | --> | Mode  | -> |  Scope   |-> | Objective|-> |  Purpose  |-> | Environment|-> | Trigger |
++---------------------+     +-------+    +----------+   +----------+   +-----------+   +-----------+   +---------+
+```
+Setup env
+
+```sh
+uv init --package awsmeetup # creating a package app
+uv venv && source .venv/bin/activate
+```
+
+Tools
+
+```sh
+uv add boto3
+
+uv tool install ty ruff
+```
+
 ## 04 Case study: certificate-renewal-operator
+
+Share the project
 
 ## 05 Advanced Unit testing Concepts w/ Pytest
 
