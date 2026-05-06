@@ -1,0 +1,100 @@
+[project]
+name = "certificate-renewal-operator"
+version = "0.1.0-rc0"
+description = ""
+authors = [
+]
+dependencies = [
+    "pydantic>=2.5.2",
+    "boto3-stubs[acm]>=1.33.6",
+    "returns>=0.22.0",
+    "boto3>=1.34.27",
+    "more-itertools>=10.2.0",
+    "cryptography>=42.0.2",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.3",
+    "mypy>=1.7.1",
+    "ruff>=0.1.6",
+    "types-cryptography>=3.3.23.2",
+    "autoflake>=2.2.1",
+    "more-itertools>=10.1.0",
+    "types-Pygments>=2.17.0.0",
+    "types-colorama>=0.4.15.12",
+    "types-setuptools>=69.0.0.0",
+    "requests>=2.31.0",
+    "boto3-stubs-lite[acm]>=1.33.13",
+]
+test = [
+    "faker>=22.6.0",
+    "pytest-socket>=0.7.0",
+]
+ci = [
+    "radon>=6.0.1",
+]
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+
+# Same as Black.
+line-length = 88
+indent-width = 4
+
+# Assume Python 3.8
+target-version = "py38"
+
+[tool.ruff.lint]
+# Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
+select = ["E4", "E7", "E9", "F"]
+ignore = []
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+[tool.mypy]
+mypy_path = ["**/*/site-packages/cryptography-stubs"]
+plugins = ["returns.contrib.mypy.returns_plugin"]
