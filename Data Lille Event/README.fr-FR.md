@@ -17,6 +17,12 @@ CFP Submission Status:
 
 ## Résumé
 
+### Court
+
+Les équipes ont besoin de données fiables, mais elles trouvent souvent des champs non documentés, des responsabilités floues et des changements incompatibles qui arrivent en production sans prévenir. Cette présentation montre comment le Data Mesh confie les données aux équipes qui connaissent le métier, et comment les contrats de données rendent cette responsabilité concrète. Vous repartirez en sachant ce qui doit figurer dans un contrat de données et comment en écrire un premier pour un seul jeu de données.
+
+### Long
+
 Les équipes ont besoin de données fiables pour prendre des décisions et faire fonctionner leurs produits. Elles trouvent pourtant souvent des champs non documentés, des responsabilités floues et des changements incompatibles qui arrivent en production avant que quiconque puisse agir.
 
 Le Data Mesh répond à ce problème en confiant les données aux équipes qui en comprennent le contexte métier. Les contrats de données rendent cette responsabilité concrète. Ils précisent la signification des données, l'équipe qui les maintient, leur schéma, leur niveau de qualité et la manière de gérer leurs évolutions.

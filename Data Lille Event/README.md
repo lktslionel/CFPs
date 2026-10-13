@@ -17,6 +17,12 @@ CFP Submission Status:
 
 ## Abstract
 
+### Short
+
+Teams need data they can trust, yet they often get undocumented fields, unclear ownership, and breaking changes that reach production unannounced. This talk shows how Data Mesh gives ownership to the teams that know the business, and how data contracts make that ownership usable. You will leave knowing what belongs in a data contract and how to write a first one for a single dataset.
+
+### Long
+
 Teams need data they can trust to make decisions and run their products. Instead, they often get undocumented fields, unclear ownership, and breaking changes that reach production before anyone can act on them.
 
 Data Mesh addresses this problem by putting data ownership with the teams that understand the business context. Data contracts make that ownership usable. They define what the data means, who maintains it, what shape and quality consumers can expect, and how changes are managed.
